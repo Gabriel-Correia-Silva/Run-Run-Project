@@ -1,0 +1,72 @@
+# Ignore Rider-specific files
+.idea/
+.idea_modules/
+*.sln.iml
+
+# Ignore JetBrains Rider logs and workspace files
+.idea/*/workspace.xml
+.idea/*/tasks.xml
+.idea/*/modules.xml
+.idea/*/modules
+.idea/*/shelf/
+.idea/*/dictionaries
+.idea/*/assets/**/external_build_system_cache/
+.idea/.idea/*/shelvedChanges
+.idea/.idea/*/workspace
+.idea/.idea/*.dll
+
+# Ignore build output directories for C#
+bin/
+obj/
+out/
+
+# Ignore .NET-related files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build directories
+_Debug/
+_Release/
+
+# Ignore package-related files
+*.nupkg
+*.snupkg
+packages/
+*.nuget/
+
+# Ignore publish output
+publish/
+
+# Ignore .NET Core dependencies
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dll.config
+*.dll.settings
+*.config.json
+*.config.settings
+*.pdb
+
+# Ignore Rider and ReSharper caches
+resharper/
+
+# Ignore IDE or OS generated files
+*.DS_Store
+*.log
+*.log.*
+*.cache
+*.diff
+
+# Ignore Rider solution configuration
+*.iml
+
+# Ignore Rider test result files
+testResults/
+TestResults/
+
+# User-specific Rider preferences
+*.sln.ide.Rider.userprefs
+.vscode/
