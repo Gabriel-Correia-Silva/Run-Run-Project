@@ -13,6 +13,7 @@ namespace backend.Data
         public DbSet<UserModel> Users { get; set; }
         public DbSet<ItensModel> Itens { get; set; }
         public DbSet<InventoryModal> Inventory { get; set; }
+        public DbSet<ShoppingCardModel> ShoppingCard { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

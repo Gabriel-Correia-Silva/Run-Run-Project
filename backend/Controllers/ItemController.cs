@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace backend.Controllers
-{
+namespace backend.Controllers;
+
     [ApiController]
     [Route("api/[controller]")]
     public class ItemController : Controller
@@ -87,4 +87,3 @@ namespace backend.Controllers
             return NoContent();
         }
     }
-}
